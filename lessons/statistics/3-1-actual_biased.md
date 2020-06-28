@@ -3,10 +3,8 @@
 >> resp = nsfg.ReadFemResp()
 
 >> pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')
-
->> thinkplot.Pmf(pmf)
-
->> thinkplot.Config(xlabel='Number of children', ylabel='PMF')
+  thinkplot.Pmf(pmf)
+  thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 >> biased = BiasPmf(pmf, label='biased')
 
