@@ -6,12 +6,9 @@
   thinkplot.Pmf(pmf)
   thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
->> biased = BiasPmf(pmf, label='biased')
+  biased = BiasPmf(pmf, label='biased')
+  thinkplot.Pmf(biased)
+  thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
->> thinkplot.Pmf(biased)
-
->> thinkplot.Config(xlabel='Number of children', ylabel='PMF')
-
->> print("Actual mean:", pmf.Mean())
-
->> print("Biased mean:", biased.Mean())
+  print("Actual mean:", pmf.Mean())
+  print("Biased mean:", biased.Mean())
