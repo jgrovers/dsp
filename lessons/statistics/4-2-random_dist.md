@@ -11,3 +11,5 @@
 
     cdf = thinkstats2.Cdf(random_numbers)
     thinkplot.Cdf(cdf)
+    
+    # Yes, it is random
